@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="css/home.css">
+    <!-- Add any additional stylesheets if needed -->
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/links/style-Arrangement.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .feedback-form {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .feedback-form h2 {
+            text-align: center;
+            color: #344a71;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #344a71;
+        }
+
+        input,
+        textarea {
+            width: 80%;
+            padding: 10px;
+            background-color: #fff;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        button {
+            background-color: #344a71;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Your existing header content here -->
+        <header class="header">
+            <div class="navigation-bar">
+                <div class="navigation-container">
+                    <a href="../index.html"><img class="navigation-logo" style="width: 230px; height: 100px; margin-right: 750px;" src="../img/aaaaaaa.png" alt="Shivpriy"></a>
+    
+                    <ul class="navigation">
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../html/room.html">ROOMS AND SUITES</a></li>
+                        <li><a href="../html/contact.html">CONTACT US</a></li>
+                        <li><a href="../html/about.html">ABOUT</a></li>
+                        <li><a href="../html/booknow.html">BOOK ONLINE</a></li>
+                        <li><a href="../html/feedback.html">FEEDBACK</a></li>
+                            <li><a href="../html/login.html">LOGIN</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+
+        
+        <!-- End of Login Form -->
+
+        <br>
+        <!-- Your existing content here -->
+    </header>
+
+    <div class="feedback-form">
+        <h2>Feedback Form</h2>
+
+        <center>
+            <form action="submit_feedback.php" method="post">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+    
+                <div class="form-group">
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                </div>
+    
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </center>
+    </div>
+    <footer class="footer">
+    
+    
+        <!-- FOOTER CENTER -->
+        <div class="footer_center">
+            <div class="text">
+                <p>CONTACT INFORMATION</p>
+                    <a name="contact"></a>
+                    <p style="margin-top: 0; padding-top: 5px;"><i>LPU</i></p>
+                    <p><i class="phone"></i> <a href="tel:9876543210">9876543210</a></p>
+                    <p><i class="mail"></i> <a href="shvipriyraj@gmail.com">shvipriyraj@gmail.com</a></p>
+                    <p>@2023 SHIVPRIY'S HOTEL</p>
+            </div>
+        </div>
+        <!-- END / FOOTER CENTER -->
+
+    </footer>
+</body>
+</html>
